@@ -1,0 +1,21 @@
+
+$(function(){
+    $('a[href^="#"]').click(function(){
+      var speed = 600;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+});
+
+$(window).on("scroll", function() {
+    var scrollPos = $(window).scrollTop();
+    if (scrollPos == 0) {
+        $(".angle-frame").fadeOut(500);
+    } else {
+        $(".angle-frame").fadeIn(500);
+    }
+});
+  

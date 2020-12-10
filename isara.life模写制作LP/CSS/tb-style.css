@@ -1,0 +1,238 @@
+/* タブレットサイズ */
+@media screen and (min-width: 769px) and (max-width: 1190px) {
+
+    /* 共通部品 */
+
+    .key-frame::before {
+        left: 10px;
+        bottom: 10px;
+    }
+    
+    .key-frame::after {
+        right: 10px;
+        top: 10px;
+    }
+
+
+    /* headerクラス */
+
+    .small-btn {
+        padding: 8px 30px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-top: 2px;
+    } 
+
+
+    /* クラス */
+
+    /* eigineer-get-freeクラス */
+
+    
+
+    /* about-isaraクラス */
+
+    .about-box {
+        width: 40%;
+        margin: 0 auto 20px;
+    }
+
+    .about-isara > p:nth-child(2) {
+        font-size: 16px;
+    }
+    
+    .about-isara > p:nth-child(3) {
+        font-size: 16px;
+    }
+    
+
+
+    /* about-bottomクラス */
+
+    .about-bottom p {
+        font-size: 18px;
+    }
+
+
+    /* isara-learnクラス */
+
+    .isara-learn {
+        width: 100%;
+    }
+
+    .learn-box {
+        width: calc(100% - 40px);
+    }
+
+    .learn-flex {
+        justify-content: space-evenly;
+    }
+
+    .learn-img  {
+        width: 25%;
+        padding: 40px 20px 0;
+    }
+
+
+
+    .merit-flex {
+        display: inline-block;
+    }
+
+    .merit-box {
+        margin: 60px auto 0;
+        width: 90%;
+    }
+
+    .bg-img {
+        max-width: 350px;
+    }
+
+
+
+    /* isara-meritクラス */
+
+    .isara-merit {
+        padding: 60px 0 0;
+    }
+
+    /* 鍵括弧はじめ */
+
+    .isara-merit .key-frame::before {
+        left: 120px;
+        bottom: 40px;
+    }
+
+    .isara-merit .key-frame::after {
+        right: 120px;
+        top: 40px;
+    }
+
+    .isara-merit .key-frame h2 {
+        font-size: 16px;
+    }
+
+    .isara-merit .key-frame h1 {
+        font-size: 26px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    /* 終わり */
+
+
+
+    /* memberクラス */
+
+    .teacher-frame {
+        display: block;
+    }
+    
+    .teacher-space {
+        width: 95%;
+        margin: 0  auto;
+    }
+
+
+    /* q-and-aクラス */
+
+    .q-and-a .key-frame::before {
+       bottom: 75px;
+       left: 50px;
+    }
+
+    .q-and-a .key-frame::after {
+      top: 75px;
+      right: 30px;
+    }
+
+
+    /* clientクラス */
+
+    .client {
+        width: 100%;
+    }
+
+    .client-flex {
+        width: 70%;
+        margin-left: inherit;
+    }
+
+
+    /* learn-contentsクラス */
+
+    .contents-flex {
+       width: 80%;
+       margin: 0 auto;
+    }
+
+    .contents-box {
+        width: 35%;
+    }
+
+    .contents-box > h2 {
+        font-size: 18px;
+    }
+
+
+
+    /* learn-planクラス */
+
+    .flowline {
+        width: 70%;
+    }
+
+
+    /* join-presentクラス */
+
+    .join-border {
+       padding-bottom: 40px;
+    }
+
+    .join-pc-box {
+        display: block;
+    }
+
+    .join-border h2 {
+        bottom: 40px;
+        line-height: 1.6;
+    }
+
+
+
+    /* isara-valueクラス */
+
+
+    .isara-value .key-frame::before {
+        bottom: 30px;
+        left: 60px;
+    }
+
+    .isara-value .key-frame::after {
+        top: 30px;
+        right: 60px;
+    }
+
+
+    /* messageクラス */
+
+    .message {
+        width: 95%;
+    }
+
+    .message-box {
+        padding: 40px 0 0;
+    }
+
+    .leader-img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .message-pc-flex {
+        display: block;
+    }
+    
+
+}

@@ -1,0 +1,1232 @@
+/* 共通設定 */
+
+/* 全体共通設定 */
+
+body {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.spbr {
+    display: none;
+}
+
+.pcbr {
+    display: none;
+}
+
+
+/* headerクラス */
+
+#header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 0 10px;
+}
+
+.header-pc-right {
+    line-height: 25px;
+}
+
+.btn-red {
+    background-color: #da6b64;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.btn-red:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #dd5046;
+}
+
+.small-btn {
+    padding: 9px 35px;
+    font-size: 12px;
+    display: inline-table;
+    font-weight: 300;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header-left p {
+    font-size: 12px;
+    position: relative;
+    font-weight: 600;
+    top: 23px;
+    padding-left: 5px;
+    letter-spacing: .1px;
+}
+
+.header-left img {
+    width: 128px;
+}
+
+.header-sp-right {
+    display: none;
+}
+
+
+
+
+
+/* mainクラス */
+
+.main {
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.main-box {
+    padding: 60px 0 80px;
+}
+
+.main-box h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.main-logo {
+    max-width: 317px;
+}
+
+.main-box h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+
+/* main-formクラス */
+
+.main-form {
+    background-color: #ebb94d;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.main-form h2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.8;
+} 
+
+.main-form .white-line {
+    font-size: 14px;
+    display: inline-block;
+    color: rgb(208, 22, 22);
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 15px 0 20px;
+    letter-spacing: 1px;
+    display: inline;
+}
+
+.large-btn {
+    width: 80%;
+    margin: 20px auto 35px;
+    display: block;
+    padding: 25px 0;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.main-txt p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.main-icon .icon-box {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 20px auto 0;
+}
+
+.main-icon .icon-btn {
+    padding: 1px 5px 1px 8px;
+    font-size: 11px;
+    letter-spacing: .5px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.icon-btn a {
+    color: #fff;
+}
+
+.icon-btn a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.twitter-icon {
+    background-color: #1b95e0;
+}
+
+.twitter-icon:hover {
+    background-color: #0a80c9;
+}
+
+.good-icon {
+    background-color: rgb(43, 106, 214);
+}
+
+.fa-twitter:before, .fa-thumbs-up::before {
+    color: #fff;
+}
+
+.share-icon {
+    background-color: rgb(35, 116, 255);
+}
+
+
+
+
+/* engineer-get-freeクラス */
+
+.engineer-get-free {
+   width: 100%;
+    background-image: url(../img/introbottom.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 80px 0 30px;
+    text-align: center;
+}
+
+
+.engineer-get-free h1 {
+    font-size: 24px;
+}
+
+.key-frame {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    position: relative;
+}
+
+.key-frame::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.key-frame::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+    position: absolute;
+}
+
+.engineer-txt {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 50px 0 100px;
+}
+
+.engineer-txt p {
+    margin-bottom: 25px;
+    color: #4e4e4e;
+}
+
+.liner {
+    background:linear-gradient(transparent 70%, #ebb94d 50%);
+}
+
+
+
+/* intro-bottomクラス */
+
+.intro-bottom {
+    background-color: #fef5e0;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.intro-bottom h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.intro-bottom > h2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 60px 0 20px;
+    line-height: 1.5;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: 0 auto -10px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+}
+
+.circle-yellow {
+    background-color: #ebb94d;
+    color: #fff;
+    bottom: 80px;
+}
+
+.intro-bottom .key-frame::before {
+    bottom: 70px;
+}
+
+.intro-bottom .key-frame::after {
+    top: 70px;
+}
+
+.intro-box {
+    background-color: #fff;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 2px solid #ebb94d;
+}
+
+.intro-box  h2 {
+    font-size: 18px;
+    padding: 30px 0 10px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.intro-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.intro-item {
+    padding: 10px;
+}
+
+.intro-item img {
+    height: 60px;
+}
+
+.intro-item > p {
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+
+/* about-isaraクラス */
+
+.about-isara {
+    background-image: url(../img/aboutsecondbg.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-isara h1 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.about-isara > p {
+    font-size: 20px;
+}
+
+.about-isara > p:nth-child(2) {
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.about-isara > p:nth-child(3) {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.txt-yellow {
+    color: #ebb94d;
+}
+
+.about-flex {
+    display: block;
+}
+
+.about-box {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 30px 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about-line {
+    background-color: #ebb94d;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.about-line h2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.about-box p:nth-child(2) {
+    margin: 25px 0 15px;
+    font-size: 15px;
+}
+
+.about-box p:nth-child(3) {
+   margin: 0;
+   font-size: 16px;
+}
+
+/* bg-blueクラス */
+
+.bg-blue {
+    background-color: #016ea9;
+    text-align: center;
+    color: #fff;
+}
+
+.about-bottom p {
+    padding: 45px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+/* isara-learnクラス */
+
+.isara-learn {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.isara-learn h1 {
+    font-size: 26px;
+}
+
+.isara-learn small  {
+    font-size: 12px;
+}
+
+.learn-sp-plan {
+    display: none;
+}
+
+.isara-learn h2 {
+    font-size: 18px;
+    padding: 30px 0 10px;
+}
+
+.learn-box {
+    width: calc(80%);
+    margin: 0 auto;
+}
+
+.learn-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-img {
+    width: 200px;
+    padding: 10px 15px;
+}
+
+.isara-learn p {
+    font-size: 15px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+
+
+/* isara-meritクラス */
+
+.isara-merit {
+    background-color: #fef5e0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.isara-merit h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.isara-merit h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.merit-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-img {
+    background-size: cover;
+    height: 180px;
+    background-position: center;
+    margin:0 auto 20px;
+}
+
+.merit-img1 {
+    background-image: url(../img/learnfromfreelancer.jpg);
+}
+
+.merit-img2 {
+    background-image: url(../img/learnfromprojects.jpg);
+}
+
+.merit-img3 {
+    background-image: url(../img/actuallyfree.jpg);
+}
+
+.merit-box {
+    width: 350px;
+    margin: 0 10px;
+}
+
+.merit-box > h3 {
+    font-size: 20px;
+    color: #ebb94d;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.merit-box > p {
+    font-size: 16px;
+    text-align: left;
+    color: #666;
+}
+
+.merit-txt {
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+    padding: 40px 40px 20px;
+}
+
+.merit-pc-txt {
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+.merit-pc-txt > h2 {
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #ebb94d;
+    font-size: 24px;
+}
+
+.merit-txt > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.merit-txt p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.isara-merit > p {
+    font-size: 12px;
+    width: 70%;
+    margin: 40px auto 0;
+    padding-bottom: 30px;
+}
+
+
+
+/* memberクラス */
+
+.member {
+    background-image: url(../img/teacherbg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ededed;
+    padding: 70px 0 20px;
+}
+
+.member h1 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+.member > p {
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.teacher-frame {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px 30px;
+}
+
+.teacher-space {
+    width: 30%;
+}
+
+.teacher-img {
+    width: 198px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+}
+
+.teacher-box {
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+    padding: 50px 20px 30px;
+}
+
+
+/* Q&Aクラス */
+
+.q-and-a {
+    background-color: #ebb94d;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+
+.circle-white {
+    background-color: #fff;
+    color: #ebb94d;
+    margin: 0 auto 20px;
+    font-size: 22px;
+}
+
+/* q-and-aクラス */
+
+.q-and-a .key-frame::before {
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.q-and-a .key-frame::after {
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+.q-and-a h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.2;
+    padding: 25px 0;
+}
+
+
+/* clientクラス */
+
+.client {
+    padding: 50px 0 30px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.client > h1 {
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.client small {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.client > p {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.client-flex {
+    display: flex;
+    padding: 10px 0 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.client-img img {
+    height: 100%;
+    max-height: 240px;
+    border: 3px solid #ebb94d;
+}
+
+.client-txt {
+    font-size: 18px;
+    color: #777;
+    padding: 10px 15px;
+    font-style: italic;
+}
+
+.client-txt p:nth-child(2) {
+    font-size: 85%;
+    text-decoration: underline;
+}
+
+
+/* learn-contentsクラス */
+
+.learn-contents {
+    background-image: url(../img/classbg.jpg);
+    background-size: cover;
+    padding: 40px 10px 50px;
+    text-align: center;
+}
+
+.learn-contents > h1 {
+    font-size: 28px;
+    padding: 10px 0 0;
+}
+
+.learn-contents > p {
+    font-size: 16px;
+    padding: 5px 0 10px;
+}
+
+.contents-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.contents-box {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #016ea9;
+    margin-bottom: 20px;
+    width: 30%;
+    margin: 20px 15px;
+}
+
+.contents-box:nth-child(2) {
+    display: inline-table;
+}
+
+.contents-box > h2 {
+    background-color: #016ea9;
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.contents-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contents-list ul li {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 700;
+    border-bottom: 1px dotted #ababab;
+}
+
+.contents-list ul li:last-child {
+    border-bottom: none;
+}
+
+.contents-bottom {
+    padding: 35px;
+}
+
+.contents-bottom p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+
+/* learn-planクラス */
+
+.learn-plan {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.learn-plan h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.flow-frame {
+    width: calc(90%);
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.flow-frame img {
+    width: 100%;
+    max-width: 980px;
+}
+
+.skill-frame {
+    width: calc(90%);
+    margin: 0 auto;
+}
+
+.skill-pc-box {
+    background-color: #fef5e0;
+    display: flex;
+    padding: 0 30px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.skill-pc-left {
+    padding: 20px;
+    width: 200px;
+}
+
+.skill-pc-right {
+    text-align: left;
+    width: 70%;
+}
+
+.skill-pc-right > p {
+    margin: 20px 0;
+}
+
+.skill-pc-right {
+    padding-top: 10px;
+    letter-spacing: .8px;
+}
+
+.txtm {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 0;
+}
+
+.txt {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.txts {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.txtxs {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* bangkokクラス */
+
+.bangkok {
+    background-image: url(../img/bangkokbg.jpg);
+    color: #fefefe;
+    padding: 60px 60px 30px;
+    letter-spacing: 2px;
+    background-size: cover;
+    background-position: center;
+    letter-spacing: 2px;
+}
+
+.bangkok h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bangkok p {
+    font-size: 12px;
+    padding: 10px 0 0;
+}
+
+.bangkok > ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+}
+
+.bangkok ul li {
+    padding: 3px 0;
+}
+
+.bangkok h2 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+
+/* join-presentクラス */
+
+.join-present {
+    background-color: #f7c23c;
+    text-align: center;
+    padding: 60px 20px 40px;
+    letter-spacing: 2px;
+}
+
+.fa-gift:before {
+    margin-right: 2px;
+}
+
+.join-present h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.join-present > p {
+    font-size: 15px;
+    padding: 40px 0 0;
+}
+
+.join-border {
+    border: 2px solid #fff;
+    margin: 80px 0 0;
+}
+
+.join-border h2 {
+    font-size: 24px;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 600;
+    position: relative;
+    bottom: 25px;
+    background-color: #f7c23c;
+}
+
+.join-pc-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.join-pc-box .circle-frame {
+    margin: 20px 15px;
+}
+
+.big-circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    padding: 40px 0 0;
+    font-size: 24px;
+}
+
+.big-circle p {
+    font-size: 14px;
+    color: #000;
+    padding: 20px 15px 0;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+
+.join-sp-flex {
+    display: none;
+}
+
+
+
+/* isara-valueクラス */
+
+.isara-value {
+    background-image: url(../img/specialdetail.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0 40px;
+    letter-spacing: 2px;
+}
+
+.isara-value h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.isara-value p {
+    font-size: 16px;
+    padding: 20px 0 ;
+}
+
+.isara-value h1 {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.isara-value .key-frame::before {
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.isara-value .key-frame::after {
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+
+
+/* messageクラス */
+
+.message {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0 100px;
+    letter-spacing: 2.5px;
+}
+
+.message > h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.message > h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 20px 0 10px;
+}
+
+.message-pc-flex {
+    display: flex;
+}
+
+.leader-img {
+    width: 25%;
+    height: 150px;
+}
+
+.message-box {
+    padding: 0 0 0 30px;
+    color: #666;
+    font-size: 14px;
+}
+
+.message-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.message-box ul li {
+   padding: 2px 0;
+}
+
+.message-box p {
+    line-height: 1.7;
+}
+
+
+
+/* formクラス */
+
+.form {
+    text-align: center;
+    background-color: #ebb94d;
+    padding: 40px 0 20px;
+    letter-spacing: 2px;
+}
+
+.form h1 {
+    font-family: monospace;
+    font-size: 24px;
+    padding: 10px 0 10px;
+}
+
+.form p {
+    font-size: 15px;
+    padding: 20px 0 0;
+}
+
+.text-frame {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-frame a {
+    width: 100%;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+textarea {
+    height: 120px;
+}
+
+.text-box {
+    margin: 30px auto;
+}
+
+.text-frame .large-btn {
+    padding: 15px 0;
+    font-size: 24px;
+    letter-spacing: 20px;
+    font-weight: 600;
+}
+
+/* questionクラス */
+
+.question {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.question h1 {
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+
+.card-head {
+    padding: 20px;
+    margin-top: 7px;
+}
+
+.panel-title {
+    font-size: 18px;
+    vertical-align: text-bottom;
+    position: relative;
+    font-family: monospace;
+}
+
+.panel-title:hover {
+    text-decoration: underline;
+}
+
+
+.panel-text::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;
+    color: rgba(0,0,0,.125);
+    position: absolute;
+    right: 0;
+}
+
+.panel-text[aria-expanded="true"]::after {
+    content: "\f106";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+}
+
+.fa-question-circle {
+    color: #016ea9;
+    font-size: 14px;
+}
+
+.card-body {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+
+/* footer */
+footer {
+    background-color: #ececec;
+    text-align: center;
+    padding: 40px 0 20px;
+    letter-spacing: 1.5px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+footer p:nth-child(1) {
+    margin: 0 0 10px;
+}
+
+footer p:nth-child(2) {
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+footer .main-icon .icon-box {
+    margin: 0 auto 40px;
+}
+
+/* 矢印固定アイコン */
+
+.angle-frame {
+    position: fixed;
+    background-color: #ececec;
+    display: inline;
+    right: 40px;
+    bottom: 100px;
+}
+
+.angle-sp {
+    display: none;
+}
+
+.angle-large-up {
+    padding: 20px 18px;
+}
+

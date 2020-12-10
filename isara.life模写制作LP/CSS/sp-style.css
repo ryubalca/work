@@ -1,0 +1,911 @@
+/* スマホサイズ */
+
+@media screen and (max-width: 768px) {
+
+    /* 共通部品 */
+
+    body {
+        letter-spacing: 1px;
+    }
+
+    .spbr {
+        display: block;
+    }
+
+    .pcbr {
+        display: none;
+    }
+
+    .key-frame::before {
+        width: 30px;
+        height: 30px;
+        left: 5px;
+        bottom: 60px;
+    }
+
+    .key-frame::after {
+        width: 30px;
+        height: 30px;
+        right: 5px;
+        top: 60px;
+    }
+
+
+    /* headerクラス,id */
+
+
+    .header {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-left {
+        display: inline-block;
+        padding: 8px 10px 5px;
+    }
+
+    .header-left p {
+        margin: 0;
+        font-size: 8px;
+        letter-spacing: 1px;
+        top: 0;
+        padding: 0;
+        letter-spacing: 0;
+    }
+
+    .header-left img {
+        width: 90px;
+    }
+
+
+    .header-pc-right {
+        display: none;
+    }
+
+    .header-sp-right {
+        background-color: #da6b64;
+        display: block;
+        width: 30%;
+        max-width: 75px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .header-sp-right a:hover {
+        text-decoration: none;
+    }
+
+    .header-sp-right img {
+        width: 20px;
+    }
+
+    .header-sp-right p {
+        margin: 0;
+        font-size: 12px;
+        color: #fff;
+        padding-top: 2px;
+    }
+
+    .header-sp-right p:hover {
+        text-decoration: underline;
+    }
+
+
+
+    /* mainクラス */
+
+    .main {
+        background-image: url(../img/mainsp.jpg);
+        padding: 60px 0 20px;
+        background-position: left;
+        background-origin: content-box;
+    }
+
+    .main-box {
+        padding: 30px 0 0;
+    }
+
+    .main-box h2 {
+        font-size: 18px;
+    }
+
+    .main-logo {
+        margin: 10px 5px 30px;
+    }
+
+    .main-box h3 {
+        padding: 0;
+        font-size: 15px;
+    }
+
+
+    /* main-formクラス */
+    .main-form {
+        padding: 20px 0 30px;
+    }
+
+    .main-form h2 {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .large-btn {
+        margin: 20px auto 30px;
+        padding: 15px 0;
+    }
+
+    .main-txt p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .main-icon > div {
+        width: 40%;
+    }
+
+    .main-icon .icon-box {
+        width: 70%;
+    }
+
+
+
+    /* enginerr-get-freeクラス */
+
+    .engineer-get-free {
+        background-size: contain;
+        padding: 50px 0 30px;
+    }
+
+    .engineer-get-free h1 {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .engineer-txt {
+        font-size: 15px;
+        padding: 30px 0;
+    }
+
+    
+    
+    /* intro-bottomクラス */
+    
+    /* ABOUT円クラス */
+    .circle {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+    }
+    
+    .circle-yellow {
+        bottom: 70px;
+        letter-spacing: 1px;
+    }
+
+    .intro-bottom .key-frame::before {
+        bottom: 50px;
+    }
+
+    .intro-bottom .key-frame::after {
+        top: 50px;
+    }
+
+    .intro-bottom h1 {
+        font-size: 18px;
+    }
+
+    .intro-bottom > h2 {
+        padding: 30px 0 20px;
+    }
+
+    .intro-box {
+        width: 90%;
+        padding: 0;
+    }
+
+    .intro-box  h2 {
+        font-size: 15px;
+        padding: 15px 0;
+        line-height: 1.7;
+        font-weight: 600;
+    }
+
+    .intro-flex {
+        padding: 0;
+    }
+
+    .intro-item {
+        padding: 5px 7px;
+    }
+
+    .intro-item img {
+        height: 30px;
+    }
+
+    .intro-item > p {
+        font-size: 10px;
+        font-weight: 300;
+        padding-top: 8px;
+    }
+    
+
+
+    /* about-isaraクラス */
+    .about-isara {
+        background-image: url(../img/aboutsecondbgsp.jpg);
+        padding: 40px 20px;
+    }
+
+    .about-isara h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .about-flex {
+        display: block;
+    }
+
+    .about-box {
+        margin: 15px auto 0;
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+
+    .about-line h2 {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .about-box p:nth-child(2) {
+        margin: 10px 0 5px;
+    }
+
+
+    /* bg-blueクラス */
+
+    .about-bottom p {
+        font-size: 12px;
+        padding: 20px 10px;
+    }
+
+
+
+
+    /* isara-learnクラス */
+    .isara-learn {
+        padding: 20px 0 10px;
+    }
+
+    .isara-learn h1 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .isara-learn small  {
+        font-size: 12px;
+    }
+
+    .isara-learn h2 {
+        font-size: 15px;
+        padding: 30px 0 10px;
+    }
+
+    .learn-box {
+        width: calc(80%);
+        margin: 0 auto;
+    }
+
+    .learn-flex {
+        justify-content: center;
+    }
+
+    .learn-img {
+        width: 25%;
+        padding: 5px 10px;
+    }
+
+    .isara-learn p {
+        font-size: 14px;
+        padding-top: 10px;
+        font-weight: normal;
+    }
+
+
+    /* isara-meritクラス */
+    .isara-merit {
+        padding: 50px 20px;
+    }
+
+    .isara-merit h2 {
+        font-weight: normal;
+    }
+
+    /* 鍵括弧はじめ */
+
+    .isara-merit .key-frame::before {
+        left: -10px;
+        bottom: 70px;
+    }
+
+    .isara-merit .key-frame::after {
+        right: -10px;
+        top: 70px;
+    }
+
+    .isara-merit .key-frame h2 {
+        font-size: 16px;
+    }
+
+    .isara-merit .key-frame h1 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+
+    /* 終わり */
+
+
+    .isara-merit h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .merit-flex {
+        display: block;
+    }
+
+    .bg-img {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .merit-box {
+        width: 100%;
+        margin: 40px auto 0;
+    }
+
+    .merit-box > h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .merit-box > p {
+        font-size: 12px;
+        padding: 0 20px 10px;
+    }
+
+    .merit-txt {
+        padding: 20px 10px 10px;
+        width: 100%;
+    }
+
+    .merit-txt > h2 {
+        font-size: 18px;
+    }
+
+    .merit-txt > h3 {
+        font-size: 15px;
+        line-height: 1.6;
+        letter-spacing: 1.5px;
+    }
+
+    .merit-txt p {
+        font-size: 10px;
+    }
+
+    .isara-merit > p {
+        font-size: 12px;
+        padding: 10px 0 20px;
+        margin: 0;
+        width: 100%;
+    }
+
+
+    /* membarクラス */
+    .member {
+        background-image: url(../img/teacherbgsp.jpg);
+        padding: 40px 10px 10px;
+    }
+
+    .member h1 {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .member > p {
+        font-size: 12px;
+        padding-top: 30px;
+        margin: 0;
+    }
+
+    .teacher-frame {
+        display: block;
+    }
+
+    .teacher-space {
+        width: 100%;
+    }
+
+    .teacher-img {
+        width: 120px;
+        top: 35px;
+    }
+
+    .teacher-box {
+        margin-bottom: 10px;
+        padding: 40px 10px 0;
+    }
+
+    .teacher-box p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+
+    /* Q&Aクラス */
+    .q-and-a {
+        padding: 20px 0;
+    }
+
+    .circle-white {
+        margin: 0 auto 20px;
+    }
+
+    .q-and-a .key-frame::before {
+       bottom: 75px;
+    }
+    
+    .q-and-a .key-frame::after {
+       top: 75px;
+    }
+
+    .q-and-a h1 {
+        font-size: 15px;
+        line-height: 2.5;
+        padding: 15px 0;
+    }
+
+    /* ----------------------------------------------- */
+
+    /* clientクラス */
+
+
+    .client {
+        padding: 50px 0 0;
+        width: calc(100% - 20px);
+    }
+
+    .client > h1 {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .client small {
+        font-size: 12px;
+    }
+
+    .client > p {
+        font-size: 10px;
+    }
+
+    .client-flex {
+        padding: 0 0 30px;
+        width: 100%;
+    }
+
+    .client-img img {
+        height: auto;
+        max-height: 120px;
+    }
+
+    .client-txt {
+        padding: 0 0 0 15px;
+        font-size: 13px;
+    }
+
+
+    /* learn-contentsクラス */
+
+    .learn-contents {
+        background-image: url(../img/classbgsp.jpg);
+        padding: 40px 10px 20px;
+    }
+
+    .learn-contents > h1 {
+        font-size: 18px;
+        padding: 10px 0 0;
+    }
+
+    .learn-contents > p {
+        font-size: 12px;
+        padding: 20px 0 10px;
+    }
+
+    .contents-flex {
+        display: block;
+    }
+
+    .contents-box {
+        margin: 0 0 20px;
+        width: 100%;
+    }
+
+    .contents-box > h2 {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+
+    .contents-list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contents-list ul li {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+
+
+    /* contents-bottomクラス */
+
+    .contents-bottom {
+        padding: 20px 15px;
+    }
+
+    .contents-bottom p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+
+
+    /* learn-planクラス */
+
+    .learn-plan {
+        padding: 60px 0 40px;
+    }
+
+    .learn-plan h1 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+    }
+
+    .txt {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .txtxs {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .txts {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    /* アコーディオン */
+
+    .plan-accordion {
+        width: 100%;
+       padding: 0 10px;
+    }
+
+    .learn-sp-plan {
+        display: block;
+    }
+
+    .card-yellow {
+        background-color: #fef5e0;
+        text-align: left;
+    }
+    
+    .card-yellow .card {
+        border: none;
+        background-color: #fef5e0;
+    }
+
+    .card-yellow .card-head {
+        padding: 10px 15px;
+    }
+
+    .card-yellow .panel-text {
+        font-size: 16px;
+    }
+
+    .panel-img {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    .learn-plan .panel-text[aria-expanded="true"]::after {
+        color: #000;
+    }
+    
+    .learn-plan .panel-text::after {       
+        color: #000;
+    }
+
+
+    /* ----------- */
+
+    .learn-pc-plan {
+        display: none;
+    }
+
+
+    /* bangkokクラス */
+
+    .bangkok {
+        background-image: url(../img/bangkokbgsp.jpg);
+        text-align: center;
+        padding: 40px;
+        text-align: left;
+    }
+
+    .bangkok h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .bangkok p {
+        font-size: 12px;
+        padding: 10px 0 0;
+    }
+    
+    .bangkok > ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+        font-size: 12px;
+    }
+    
+    .bangkok h2 {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+
+    /* join-presentクラス */
+
+    .join-present h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .join-present > p {
+        font-size: 12px;
+        padding: 20px 0 0;
+    }
+
+    .join-sp-flex {
+        margin: 0 60px;
+        display: block;
+    }
+
+    .join-border {
+        margin: 60px 0 0;
+    }
+
+    .join-border h2 {
+        font-size: 20px;
+        width: 60%;
+    }
+
+    .join-sp-box {
+        display: flex;
+    }
+
+    .join-sp-box p {
+        font-size: 12px;
+        padding: 10px 0 0 30px;
+        text-align: left;
+    }
+
+    .join-pc-flex {
+        display: none;
+    }
+
+
+    
+
+
+    /* isara-valueクラス */
+
+    .isara-value {
+        background-image: url(../img/specialdetailsp.jpg);
+        padding: 40px 0 20px;
+    }
+
+    .isara-value h2 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .isara-value p {
+        font-size: 13px;
+        padding: 20px 0 ;
+    }
+
+    .isara-value h1 {
+        font-size: 20px;
+        line-height: 2;
+        padding: 10px 0;
+    }
+
+    .isara-value .key-frame::before {
+        bottom: 75px;
+        left: 15px;
+    }
+
+    .isara-value .key-frame::after {
+        top: 75px;
+        right: 15px;
+    }
+
+
+    /* messageクラス */
+
+    .message {
+        padding: 50px 15px 30px;
+        width: 100%;
+    }
+    
+    .message > h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .message > h2 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.4;
+        padding: 40px 0 10px;
+    }
+
+    .message-pc-flex {
+        display: block;
+    }
+    
+    .leader-img  {
+        width: 100%;
+        height: auto;
+    }
+    
+    .message-box {
+        padding: 10px 0 0;
+        font-size: 14px;
+    }
+    
+    .message-box ul {
+        margin: 0 0 20px;
+    }
+    
+    .message-box ul li {
+       padding: 2px 0;
+    }
+    
+    .message-box p {
+        line-height: 1.7;
+    }
+
+
+
+
+    /* formクラス */
+
+    .form {
+        padding: 20px 0;
+    }
+
+    .form h1 {
+        font-size: 18px;
+        padding: 30px 0 0;
+    }
+
+    .form p {
+        font-size: 12px;
+        padding: 20px 0 0;
+    }
+
+    .text-frame {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 15px 10px;
+        margin: 10px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .text-box {
+        margin: 30px 0;
+    }
+
+    .text-box textarea {
+        margin: 50px 0;
+    }
+
+    .text-frame .large-btn {
+        padding: 10px 0;
+    }
+
+
+    /* questionクラス */
+
+    .question {
+        width: 95%;
+        padding: 40px 0 20px;
+    }
+
+    .question h1 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .panel-text {
+        font-size: 15px;
+        padding-right: 25px;
+    }
+
+    .card-head {
+        padding: 10px;
+    }
+
+    .panel-text::after {
+        top: 0;
+    }
+
+    .card-body {
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+
+    /* footer */
+
+    footer {
+        padding: 15px 0;
+        position: relative;
+    }
+
+    footer > p:nth-child(2) {
+        padding-bottom: 30px;
+    }
+
+   
+    
+    .angle-frame {
+        right: 20px;
+        bottom: 50px;
+    }
+    
+    .angle-sp {
+        display: block;
+        padding: 20px 15px;
+    }
+
+    .angle-large-up {
+        display: none;
+    }
+
+
+
+
+
+}

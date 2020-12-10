@@ -1,0 +1,199 @@
+/* PCサイズ */
+@media screen and (min-width: 1191px) {
+
+    /* 共通部品 */
+
+    .key-frame::before {
+        left: 200px;
+        bottom: 10px;
+    }
+    
+    .key-frame::after {
+        right: 200px;
+        top: 10px;
+    }
+
+    /* headerクラス */
+
+    .header {
+        max-width: 1190px;
+        margin: 0 auto;
+    }
+
+    .header-left p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .small-btn {
+        letter-spacing: 2px;
+        font-size: 14px;
+        margin-top: 1px;
+    } 
+
+
+
+    /* main-formクラス */
+
+
+
+    .large-btn {
+        padding: 30px 0;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+
+    .main-txt p {
+        font-size: 22px;
+        margin-top: 30px;
+        letter-spacing: 1.5px;
+    }
+
+
+
+    /* intro-bottomクラス */
+
+    .intro-box h2 {
+        font-size: 20px;
+    }
+
+    .intro-item {
+        padding: 15px 20px;
+    }
+
+
+
+    /* eigineer-get-freeクラス */
+
+    .enginner-get-free h1 {
+        font-weight: 600;
+    }
+
+   
+    /* about-isaraクラス */
+
+    .about-flex {
+        display: flex;
+    }
+
+    .about-box {
+        margin: 0 10px;
+    }
+
+    .about-isara h1 {
+        font-size: 28px;
+    }
+
+    .about-isara > p:nth-child(2) {
+        font-size: 20px;
+    }
+    
+    .about-isara > p:nth-child(3) {
+        font-size: 20px;
+    }
+
+
+
+    /* about-bottomクラス */
+
+    .about-bottom p {
+        font-size: 20px;
+    }
+
+
+    .learn-img {
+        padding: 10px;
+    }
+
+    .learn-flex {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+
+
+     /* isara-meritクラス */
+
+     .isara-merit {
+        padding: 70px 0 0;
+    }
+
+    /* 鍵括弧はじめ */
+
+    .isara-merit .key-frame::before {
+        left: 250px;
+        bottom: 40px;
+    }
+
+    .isara-merit .key-frame::after {
+        right: 250px;
+        top: 40px;
+    }
+
+    .isara-merit .key-frame h2 {
+        font-size: 20px;
+    }
+
+    .isara-merit .key-frame h1 {
+        font-size: 28px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .q-and-a h1 {
+        font-size: 24px;
+    }
+
+    /* 終わり */
+    
+    .merit-flex {
+        margin-top: 60px;
+    }
+
+
+    /* q-and-aクラス */
+
+    .q-and-a .key-frame::before {
+        bottom: 100px;
+        left: 150px;
+     }
+ 
+     .q-and-a .key-frame::after {
+       top: 100px;
+       right: 150px;
+     }
+
+
+
+     /* clientクラス */
+
+     .client {
+         width: 70%;
+     }
+
+     .client-flex {
+         margin-right: auto;
+     }
+
+
+     /* learn-contentsクラス */
+
+     
+
+     /* join-presentクラス */
+
+     .join-border h2 {
+         font-size: 28px;
+     }
+
+
+     .text-frame {
+         width: 60%;
+     }
+
+
+
+
+}

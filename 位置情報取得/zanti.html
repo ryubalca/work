@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トライアル画面</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="send">
+        <nav id="tab-menu">
+            <li id="camera" class="close">カメラ</li>
+            <li id="zanti">残置線</li>
+        </nav>
+        <div class="wrapper">
+            <h1>残置線撤去報告</h1>
+            <form action="">
+                <div>
+                    <label for="">日付</label>
+                    <input type="date" id="date">
+                </div>
+                <div>
+                    <label for="">時間</label>
+                    <input type="time" id="time">
+                </div>
+                <div>
+                    <label for="">位置情報</label>
+                    <input type="text" id="lati-long" readonly>
+                </div>
+                <div>
+                    <button id="reload">更新</button>
+                </div>
+                <div>
+                    <label for="">補助者</label>
+                    <p class="txt-red">補助者が2人以上いる場合は半角スペースを空けて入力してください。</p>
+                    <input type="text" id="sub">
+                </div>
+                <div>
+                    <label for="">残置線撤去本数</label>
+                    <p class="txt-red">半角数字で記入してください。</p>
+                    <input type="text" id="zantisen" value="">
+                </div>
+                <input type="hidden" id="camera" value="0">
+            </form>
+            <div class="btn-area">
+                <button id="register">登録</button>
+                <button id="logout">ログアウト</button>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="score">
+        <div class="wrapper">
+            <div id="zanti-person-target"></div>
+            <div id="team-id"></div>
+            <div id="zanti-team-score"></div>
+            <div id="zanti-team-person"></div>
+        </div>
+    </section>
+    <!-- <script src="js/apiConn.js"></script> -->
+    <script src="js/sampledata.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/zanti.js"></script>
+    <script src="js/screen.js"></script>
+</body>
+</html>

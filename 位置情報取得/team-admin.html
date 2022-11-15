@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>チームデータ管理画面</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="wrapper">
+    <h1>チームデータ管理画面</h1>
+    <p class="change"><a href="admin.html">個人実績画面切り替え</a></p>
+    <div class="flex">
+        <div>
+            <div>
+                <h2>チーム全体カメラ設置数取得</h2>
+                <button onclick="downloadTeamCsv('カメラ','チーム全体カメラ設置数データ'); return false">CSV出力</button>
+            </div>
+            <div class="bottom">
+                <h2 class="undertitle">所属チームカメラ設置個人データ取得</h2>
+                <button onclick="downloadTeamPersonCsv('カメラ','所属チーム内個人カメラデータ'); return false">CSV出力</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>チーム全体残置線撤去本数取得</h2>
+                <button onclick="downloadTeamCsv('残置線','チーム全体残置線撤去本数データ'); return false">CSV出力</button>
+            </div>
+            <div class="bottom">
+                <h2 class="undertitle">所属チーム残置線撤去本数データ取得</h2>
+                <button onclick="downloadTeamPersonCsv('残置線','所属チーム内個人残置線データ'); return false">CSV出力</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/sampledata.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

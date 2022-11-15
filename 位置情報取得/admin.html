@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人実績</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="wrapper">
+    <h1>個人実績管理画面</h1>
+    <p class="change"><a href="team-admin.html">チームデータ管理画面切り替え</a></p>
+    <div class="flex">
+        <div>
+            <h2 class="subtitle">カメラ設置データ取得</h2>
+            <button onclick="downloadPersonCsv('カメラ','カメラ設置データ'); return false">CSV出力</button>
+        </div>
+        <div>
+            <h2 class="subtitle">残置線撤去データ取得</h2>
+            <button onclick="downloadPersonCsv('残置線','残置線撤去データ'); return false">CSV出力</button>
+        </div>
+    </div>
+    <script src="js/sampledata.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+.sidebar {
+    display: flex;
+    color: #fff;
+    flex: 0.3;
+    height: 100vh;
+    // background-color: #1B1C20;
+    .sidebarLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1B1C20;
+        padding: 7px 15px;
+        .serverIcon {
+            width: 60px;
+            height: 60px;
+            // background-color: #32363D;
+            border-radius: 50%;
+            margin-top: 10px;
+            position: relative;
+            img {
+                position: absolute;
+                width: 50px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    
+    .sidebarRight {
+        background-color: #2B2D33;
+        width: 300px;
+        position: relative;
+        flex-grow: 1;
+        .sidebarTop {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .sidebarChannels {
+            padding: 13px;
+            .sidebarChannelsHeader {
+                display: flex;
+                color: #fff;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 5px;
+            }
+            .sidebarHeader {
+                display: flex;
+            }
+            .sidebarAddIcon {
+                cursor: pointer;
+            }
+        }
+        
+        .sidebarFooter {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 93%;
+            border-top: 1px solid #686a6e;
+            padding: 10px 0 10px;
+            margin-left: -5px;
+
+            .sidebarAccount {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 60px;
+                }
+                .accountName {
+                    padding-left: 5px;
+                    h4 {
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                    span {
+                        color: #686a6e;
+                    }
+                }
+            }
+
+            .sidebarvoice {
+                color: #686a6e;
+            }
+        }
+    }
+}
